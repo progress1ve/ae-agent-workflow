@@ -9,18 +9,13 @@ This repository packages a reusable agent skill, a local sound-design MCP, insta
 
 ## Install from your chat
 
-Paste this into a **local agent with terminal access**:
+Tell a **local agent with terminal access**:
 
 ```text
-Install https://github.com/progress1ve/ae-agent-workflow for my local
-After Effects workflow. Read README.md and scripts/install.py first.
-Clone the repository into a separate tools directory, run its installer
-for my client, register the AE MCP and optional local audio MCP, and
-preserve existing configuration. Verify the connection with project
-inspection. Do not modify my project or render anything during setup.
+Install and use https://github.com/progress1ve/ae-agent-workflow
 ```
 
-Tell the agent whether you use Codex or Claude Code. Installation may download npm/Python dependencies. A browser-only chat cannot operate your local AE through this stdio setup.
+No special prompt is required. “Install this skill” plus the repository link also works as an installation request; simply sending a link does not authorize installation. The agent should follow [the setup guide](docs/INSTALLATION.md#for-agents), detect its client, install the skill and tools, and use the workflow for subsequent AE requests. Installation may download npm/Python dependencies. A browser-only chat cannot operate your local AE through this stdio setup.
 
 ## Manual quick start
 
