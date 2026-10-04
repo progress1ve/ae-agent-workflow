@@ -1,5 +1,8 @@
 # After Effects Agent Workflow
 
+[![Helper checks](https://github.com/progress1ve/ae-agent-workflow/actions/workflows/check.yml/badge.svg)](https://github.com/progress1ve/ae-agent-workflow/actions/workflows/check.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Make editable motion graphics with **Codex, Claude Code, or another local coding agent**—and keep the artist in control of the composition.
 
 This repository packages a reusable agent skill, a local sound-design MCP, installation helpers, and practical lessons from a short advertising-banner production. It connects to the independent [mcp-aftereffects](https://github.com/kumoproductions/mcp-aftereffects) project by kumo.productions; it does not replace Adobe After Effects or supply an Adobe license.
