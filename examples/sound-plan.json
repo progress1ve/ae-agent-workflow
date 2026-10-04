@@ -1,0 +1,7 @@
+{
+  "duration": 5,
+  "cues": [
+    {"time": 0.04, "file": "assets/whoosh.wav", "length": 0.28, "peak_db": -19},
+    {"time": 3.55, "file": "assets/whoosh.wav", "length": 0.48, "peak_db": -10, "pan": "left-to-center"}
+  ]
+}
